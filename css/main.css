@@ -29,6 +29,24 @@ h3 {
     color: hsl(332, 51%, 32%);
 }
 
+ul {
+    padding-left: 20px;
+}
+
+li {
+    line-height: 1.5em;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+li::marker {
+    font-size: .75em;
+}
+
+span {
+    font-weight: 700;
+}
+
 hr {
     background-color: hsl(30, 18%, 87%);
     height: 1px;
@@ -71,6 +89,13 @@ main {
 
 .prep-details {
     background-color: hsl(330, 100%, 98%);
+    padding: 5px 25px;
+    border-radius: 10px;
+    margin: 25px 0;
+}
+
+li.prep-marker::marker  {
+    color:hsl(332, 51%, 32%)
 }
 
 /****** Attribution *****/
