@@ -168,3 +168,32 @@ ol.instruction-steps li::marker {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+@media screen and (min-width: 640px) {
+    body {
+        background-color: var(--eggshell);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main {
+        margin: 0;
+    }
+
+    img {
+        border-radius: 20px;
+    }
+
+    .img-container {
+        margin-bottom: 40px;
+    }
+
+    .card-container {
+        background-color: var(--white);
+        padding: 50px;
+        border-radius: 30px;
+        max-width: 45%;
+        margin: 200px;
+    }
+};
