@@ -113,7 +113,6 @@ main {
     margin: 30px;
 }
 
-
 /****** Header *****/
 .img-container {
     display: flex;
@@ -127,10 +126,6 @@ main {
 }
 
 /****** Main Styles *****/
-
-.recipe-details {
-    line-height: 1.5;
-}
 
 .prep-details {
     background-color: var(--rose-white);
